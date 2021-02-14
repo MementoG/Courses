@@ -1,1 +1,0 @@
-/home/olehkhramtsov/Magento/Courses/mage2.4.1/vendor/magento/module-swatches/view/base/web/js/swatch-renderer.js

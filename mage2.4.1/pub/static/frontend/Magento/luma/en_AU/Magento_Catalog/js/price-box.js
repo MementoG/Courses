@@ -1,1 +1,0 @@
-/home/olehkhramtsov/Magento/Courses/mage2.4.1/vendor/magento/module-catalog/view/base/web/js/price-box.js
