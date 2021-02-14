@@ -1,0 +1,1 @@
+/home/olehkhramtsov/Magento/Courses/mage2.4.1/vendor/magento/module-customer/view/frontend/web/js/invalidation-processor.js

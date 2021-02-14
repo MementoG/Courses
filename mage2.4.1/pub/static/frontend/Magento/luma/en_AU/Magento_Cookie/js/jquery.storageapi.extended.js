@@ -1,0 +1,1 @@
+/home/olehkhramtsov/Magento/Courses/mage2.4.1/vendor/magento/module-cookie/view/base/web/js/jquery.storageapi.extended.js

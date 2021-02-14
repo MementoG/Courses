@@ -1,0 +1,1 @@
+/home/olehkhramtsov/Magento/Courses/mage2.4.1/vendor/magento/module-tax/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js
