@@ -8,7 +8,7 @@ class Test
     private $name;
     private $number;
     public function __construct(
-        \Training\TestOM\Model\Manager $manager,
+        \Training\TestOM\Model\ManagerInterface $manager,
         $name,
         int $number,
         array $arrayList
