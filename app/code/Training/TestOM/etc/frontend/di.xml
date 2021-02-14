@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\UrlInterface">
+        <plugin name="training_test_model" type="Training\TestOM\Plugin\Model\Url" />
+    </type>
+    <type name="Magento\Framework\View\Element\Template">
+        <plugin name="training_test_block" type="Training\TestOM\Plugin\Block\Template" />
+    </type>
+</config>
