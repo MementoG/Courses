@@ -3,6 +3,7 @@
     <module name="Training_Test" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Cms"/>
+            <module name="Magento_Catalog"/>
         </sequence>
     </module>
 </config>
