@@ -1,0 +1,3 @@
+<referenceContainer name="content.top">
+    <block class="Magento\Framework\View\Element\Template" name="topinfo" template="topinfo.phtml"/>
+</referenceContainer>
