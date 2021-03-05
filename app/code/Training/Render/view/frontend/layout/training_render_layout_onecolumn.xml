@@ -3,12 +3,20 @@
     <head>
         <title>Success Page</title>
     </head>
+<!--    <referenceContainer name="content">-->
+<!--        <block class="Magento\Framework\View\Element\Template" name="testargument" template="Training_Render::test.phtml">-->
+<!--            <arguments>-->
+<!--                <argument name="background_color" xsi:type="string">#87CEFA</argument>-->
+<!--            </arguments>-->
+<!--        </block>-->
+<!--    </referenceContainer>-->
+<!--    <referenceBlock name="testargument" remove="true"/>-->
     <referenceContainer name="content">
-        <block class="Magento\Framework\View\Element\Template" name="testargument" template="Training_Render::test.phtml">
+        <block class="Magento\Framework\View\Element\Template" name="test.form" template="Training_Render::form.phtml">
             <arguments>
-                <argument name="background_color" xsi:type="string">#87CEFA</argument>
+                <argument name="viewModel" xsi:type="object">Training\Render\ViewModel\Form</argument>
+                <argument name="background_color" xsi:type="string">orange</argument>
             </arguments>
         </block>
     </referenceContainer>
-    <referenceBlock name="testargument" remove="true"/>
 </page>
