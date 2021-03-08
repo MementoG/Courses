@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-    <referenceContainer name="before.body.end">
-        <block class="Magento\Framework\View\Element\Template" name="layout-debug" template="Training_Test::layout-debug.phtml"/>
-    </referenceContainer>
-</body>
+        <referenceContainer name="content.top">
+            <block class="Magento\Framework\View\Element\Template" name="sidebar-review" before="-"
+                   template="Training_Test::review.phtml"/>
+        </referenceContainer>
+<!--        <referenceContainer name="before.body.end">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="layout-debug" template="Training_Test::layout-debug.phtml"/>-->
+<!--        </referenceContainer>-->
+    </body>
 </page>
