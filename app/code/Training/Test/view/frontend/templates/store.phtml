@@ -1,0 +1,21 @@
+<div data-bind="scope: 'stockStore'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "stockStore": {
+                    "component": "Training_Test/js/store",
+                    "config": {
+                        "template": "Training_Test/store",
+                        "id": <?= json_encode($block->getCurrentProduct()->getId()) ?>,
+                        "url": <?= json_encode($block->getUrl('test/store/index')) ?>
+                    }
+                }
+            }
+        }
+    }
+}
+</script>
