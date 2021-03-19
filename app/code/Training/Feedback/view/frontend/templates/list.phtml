@@ -7,7 +7,11 @@
                 <span><?= __('Add Feedbaack') ?></span>
             </button>
         </div>
-        <?= $block->getPaginationHtml() ?>
+        <div class="feedback-statistic">
+            <p><?= __('Total number of submitted feedbacks: %1', $block->getAllFeedbackNumber()) ?></p>
+            <p><?= __('Total number of active feedbacks: %1', $block->getActiveFeedbackNumber()) ?></p>
+        </div>
+        <?= $block->getPagerHtml() ?>
     </div>
     <div class="feedback-list">
         <?php foreach ($block->getCollection() as $feedback): ?>
