@@ -5,6 +5,7 @@ class Save extends \Magento\Framework\App\Action\Action
 {
     private $feedbackFactory;
     private $feedbackResource;
+
     public function __construct(
         \Magento\Framework\App\Action\Context $context,
         \Training\Feedback\Model\FeedbackFactory $feedbackFactory,
