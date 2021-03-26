@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="customer_account"/>
+    <body>
+        <referenceBlock name="customer_edit">
+            <arguments>
+                <argument name="viewModel" xsi:type="object">Training\CustomerPersonalSite\ViewModel\CustomerAttribute</argument>
+            </arguments>
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">Training_CustomerPersonalSite::form/edit.phtml</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
